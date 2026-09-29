@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+.container{
+   width: calc(100% - 240px) ;
+   margin: auto ;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.container1{
+    width: calc(100% - 240px) ;
+   margin: auto ;
+    background-color: #c8dfff;
+    padding: 30px;               
+
+}
