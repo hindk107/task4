@@ -22,6 +22,7 @@ button{
 .container{
    width: calc(100% - 240px) ;
    margin: auto ;
+    
 
 }
 .row{
@@ -35,6 +36,6 @@ button{
     width: calc(100% - 240px) ;
    margin: auto ;
     background-color: #c8dfff;
-    padding: 30px;               
+    padding: 50px 10px;               
 
 }

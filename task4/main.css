@@ -63,3 +63,122 @@ display: block;
     margin-right: 22px; 
     padding-bottom: 10px;
 }
+.courses{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+     
+}
+.course{
+   
+    margin: 0 0 50px;
+    border-radius: 20px;
+    height:fit-content;
+    width: calc((100% - 210px)/4);
+    align-items: center;
+     display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px #ddd;
+   
+
+    
+    
+}
+.course p{
+
+     width: 250px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 15px 0 40px;
+    color: #676581;
+}
+.course img{
+    margin: 15px 0;
+}
+.choises h1{
+    margin: 40px 0 30px;
+}
+
+.recomends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    padding: 0 70px;
+
+
+}
+.recomend {
+    background-color: #ffffff;
+    margin: 0 0 50px ;
+    border-radius: 20px;
+    height:fit-content;
+    width: calc((100% - 130px)/4);
+    align-items: center;
+    display: flex;
+   
+}
+
+
+.recomended1 h2{
+    padding: 20px 0 40px 70px;
+}
+.recomendcont{
+    width: calc(100% - 20px);
+    margin: auto;
+}
+.recomend img{
+    width: 230px;
+    height: 200px;
+    padding-top: 5px;
+    
+}
+.welcless img{
+    width: 15px;
+    height: 15px;
+    margin: 15px 0;
+}
+.welcless ul{
+    gap: 5px;
+}
+.welcless p{
+    color:  #676581;
+}
+.recomend p{
+    margin: 15px 0;
+    color:  #676581;
+}
+.profile1 img{
+    width: 30px;
+    height: 40px;
+    margin-bottom: 15px;
+
+}
+.profile1 ul{
+    gap: 10px;
+}
+.dicor a{
+    text-decoration: dashed;
+}
+.profile1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dicor{
+    text-decoration: line-through;
+    color:  #676581;
+}
+.nodicor{
+    color: #00fbff;
+}
+.Recomended2 h2{
+    margin: 30px 70px;
+}
+.Recomended2 .welcless a{
+    padding-left: 750px;
+    padding-top: 30px;
+}

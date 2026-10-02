@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+.collection h2{
+    margin-top: 23px;
+
+   
+}
+.collections{
+     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.collection{
+     
+    width: calc((100% - 90px) / 4);
+  
+}
+
+.list ul{
+     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.icons ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.collection img{
+    width: 100%;
+    display: block;
+}
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+}
